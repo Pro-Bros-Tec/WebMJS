@@ -1,0 +1,30 @@
+doctype html
+
+html
+
+  head
+    title WebMJS | admin
+    link(rel="stylesheet", href="style.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css")
+    link(rel="favicon", href="icon.svg")
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  body
+    div.sidebar
+      p.sidebar-title(style="font-size: 25px;") WebMJS 
+      hr
+      a.sidebar-link(href="/admin") <i class="fas fa-home"></i> Home 
+      a.sidebar-link-active(href="/admin-insights") <i class="fas fa-chart-line"></i> Insights
+      a.sidebar-link(href="#") <i class="far fa-comment-dots"></i> Comments
+      a.sidebar-link(href="#") <i class="far fa-envelope"></i> Messages
+      a.sidebar-link(href="#") <i class="far fa-address-card"></i> Contacts
+      a.sidebar-link(href="#") <i class="fas fa-tasks"></i> Tasks
+      a.sidebar-link(href="#") <i class="far fa-address-book"></i> Users
+      hr
+      a.sidebar-link(href="#") <i class="far fa-file-alt"></i> Pages
+      a.sidebar-link(href="#") <i class="far fa-file-word"></i> Documents
+      a.sidebar-link(href="#") <i class="fas fa-file-upload"></i> Uploads
+      hr
+      a.sidebar-link(href="#") <i class="fas fa-cog"></i> Settings
+
+    div.main-area

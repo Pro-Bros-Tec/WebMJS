@@ -1,0 +1,65 @@
+doctype html
+
+html
+
+  head
+    title WebMJS | admin
+    link(rel="stylesheet", href="style.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css")
+    link(rel="favicon", href="icon.svg")
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  body
+    div.sidebar
+      p.sidebar-title(style="font-size: 25px;") WebMJS 
+      hr
+      a.sidebar-link-active(href="/admin") <i class="fas fa-home"></i> Home 
+      a.sidebar-link(href="/admin-insights") <i class="fas fa-chart-line"></i> Insights
+      a.sidebar-link(href="#") <i class="far fa-comment-dots"></i> Comments
+      a.sidebar-link(href="#") <i class="far fa-envelope"></i> Messages
+      a.sidebar-link(href="#") <i class="far fa-address-card"></i> Contacts
+      a.sidebar-link(href="#") <i class="fas fa-tasks"></i> Tasks
+      a.sidebar-link(href="#") <i class="far fa-address-book"></i> Users
+      hr
+      a.sidebar-link(href="#") <i class="far fa-file-alt"></i> Pages
+      a.sidebar-link(href="#") <i class="far fa-file-word"></i> Documents
+      a.sidebar-link(href="#") <i class="fas fa-file-upload"></i> Uploads
+      hr
+      a.sidebar-link(href="#") <i class="fas fa-cog"></i> Settings
+
+    div.main-area
+      p.title(style="font-size: 45px; text-align: center; margin-top: 50px;") Welcome to WebMJS!
+      p.main-text(style="width: 40%; margin: auto; text-align: center;") Welcome to your admin panel, thank you for using WebMJS for your CMS. Hope this tool proves to be a useful, and time saving, and if you consider donating go <b><u>Here</u></b>
+
+      div.hrz(style="margin-top: 100px;")
+        div.task-box(style="margin: auto;")
+          p.main-text(style="width: 270px; margin: auto; text-align:center; font-size: 25px;") <i class="fas fa-tasks"></i> Tasks
+          hr(style="width: 270px;")
+          div.task
+            p.task-text Task 1
+          div.task
+            p.task-text Task 2
+          div.task
+            p.task-text Task 3
+
+        div.task-box(style="margin: auto;")
+          p.main-text(style="width: 270px; margin: auto; text-align:center; font-size: 25px;") <i class="far fa-envelope"></i> Messages
+          hr(style="width: 270px;")
+          div.task
+            p.task-text You need to pay for this months use of WebMJS.
+          div.task
+            p.task-text  There is a new version of WebMJS!
+          div.task
+            p.task-text New User!
+          div.task
+            p.task-text Security alert! Someone is trying ot break in!
+
+        div.task-box(style="margin: auto;")
+          p.main-text(style="width: 270px; margin: auto; text-align:center; font-size: 25px;") <i class="far fa-comments"></i> Comments
+          hr(style="width: 270px;")
+          div.task
+            p.task-text Noice Post man!
+          div.task
+            p.task-text Very interesting!
+          div.task
+            p.task-text Well done!
